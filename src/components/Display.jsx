@@ -8,6 +8,7 @@ const Display = () => {
       <Routes>
         <Route path='/' elements={<DisplayHome/>}/>
       </Routes>
+      <DisplayHome></DisplayHome>
     </div>
   )
 }
